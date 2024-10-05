@@ -1,0 +1,108 @@
+{
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "java.cleanup.actions": ["qualifyMembers"],
+  "editor.formatOnSave": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDelete": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "on",
+  "git.enableSmartCommit": true,
+  "editor.fontSize": 13,
+  "editor.tabSize": 3,
+
+  "git.confirmSync": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-icon-theme.activeIconPack": "react",
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+
+  "editor.lineNumbers": "off",
+  "editor.guides.indentation": false,
+  "workbench.editor.showTabs": "none",
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  //CUSTOM SETTINGS----------------------------------------------
+
+  "editor.hover.delay": 1500,
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": " 'Fira Code', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "editor.suggestFontSize": 16,
+  "editor.suggestLineHeight": 40,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeight": "500",
+  "explorer.sortOrder": "type",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "onHover",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.smoothScrolling": true,
+  "editor.wordWrapColumn": 120,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "material-icon-theme.saturation": 0.5,
+  "vscode_custom_css.imports": [
+    "file:///C:/custom-vscode/custom-vscode.css",
+    "file:///C:/custom-vscode/vscode-script.js"
+  ],
+  "workbench.colorTheme": "Material Theme DeepForest High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "variable.language",
+          "entity.other.attribute-name.html",
+          "entity.other.attribute-name",
+          "keyword.control",
+          "storage.type",
+          "comment",
+          "comment.block",
+          "comment.line"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+          //  "foreground": "#75f3e0b0"
+        }
+      }
+    ]
+  }
+}
